@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a586af00a33249699ce1a8d3bde457d0" Name="Diagram1">
+        <EntityTypeShape EntityType="KurtPrLyamModel.country" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KurtPrLyamModel.director" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KurtPrLyamModel.films" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KurtPrLyamModel.genre" Width="1.5" PointX="3.125" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KurtPrLyamModel.sysdiagrams" Width="1.5" PointX="5.375" PointY="0.75" />
+        <AssociationConnector Association="KurtPrLyamModel.FK_films_country" />
+        <AssociationConnector Association="KurtPrLyamModel.FK_films_director" />
+        <AssociationConnector Association="KurtPrLyamModel.FK_films_genre" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
